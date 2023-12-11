@@ -1,0 +1,21 @@
+
+.item {
+    text-align: center;
+    padding: 20px 10px;
+    margin:5% 4%;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.item p {
+    padding: 10px 0;
+}
+
+
+
+.filmlist {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    gap: 30px;
+}
+

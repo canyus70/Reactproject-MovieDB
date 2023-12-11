@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    color: white;
+    background: rgb(63,94,251);
+}
+
+nav button {
+    color: white;
+    background: darkcyan;
+    padding: 2px;
+    margin-bottom: 2%;
+
+
+}
